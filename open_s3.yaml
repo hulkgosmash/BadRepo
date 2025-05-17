@@ -1,0 +1,6 @@
+Resources:
+  OpenS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: PublicRead
+      BucketName: insecure-bucket-example

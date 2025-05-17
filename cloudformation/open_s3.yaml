@@ -1,0 +1,7 @@
+
+Resources:
+  OpenS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: "public-bucket"
+      AccessControl: PublicRead
